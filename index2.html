@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration  Portal</title>
+    <link rel="icon" href="logo-img.webp">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, sans-serif;
+            background-color: #aef4f8;
+        }
+        header,footer {
+            background-color: rgb(122, 170, 201);
+            color:rgb(234, 243, 239);
+            text-align: center;
+            padding: 2px;
+        }
+
+        .navitem{
+            display:inline-block;
+            padding: 0px 15px ;
+        }
+
+        .navitem a{
+            text-decoration: none;
+            color:rgb(5, 58, 107);
+        }
+
+        .registerform{
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+  
+        .studenttable{
+            text-align: center;
+        }
+
+        table{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;                        
+            border-collapse:collapse;
+        }
+
+        th,td{
+            border: 1px solid #b0bec0;
+            padding:8px;
+        }
+
+        .contactus{
+            text-align: center;
+        }
+
+    </style> 
+
+</head>
+<body>
+
+    <header>
+      <h1>Welcome to College</h1>
+      <nav>
+          <ul>
+              <li class="navitem"><a href="#student registration">Student Registration </a></li>
+              <li class="navitem"><a href="#student-directory">Student Directory</a></li>
+              <li class="navitem"><a href="#contact us">Contact us</a></li>
+          </ul>
+
+      </nav>
+    </header>
+
+    <image src="Student-img.webp" style="width:100%;"></image>
+     
+    <section id="Student-registration"  class="registerform">            
+         <h2>Student Registration</h2>
+         <p>Fill the below form to register as <em>Student.</em></p>
+         <form>
+             <label for="name">Name:</label>
+             <input type="text" id="name"><br><br> 
+             <label for="email">Email Id:</label>
+             <input type="email" id="name"><br><br>    
+             <label for="password">Password:</label>
+             <input type="password" id="password"><br><br>   
+             <label for="age">Age:</label>
+             <input type="number" id="age"><br><br>   
+             <label for="branch">Select Branch:</label>
+             <select>
+                <option>Computer Science</option>
+                <option>Information Technology </option>
+                <option>Artificial Intelligence & Data Science</option>
+                <option>Electrical Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+            </select><br><br>   
+            <label for="date of birth">Select Date Of Birth:</label>
+            <input type="date" id="date of birth"><br><br> 
+            <input type="submit"><br> 
+        </form>
+    </section>
+     
+    <section id="student-directory" class="studenttable">
+          <h2>Student Directory</h2>
+        <p>  List of all registered Students.</p>
+        <table>
+            <tr>
+                <th>Student roll No.</th>
+                <th>Student Name</th>
+                <th>Student Branch</th>
+            </tr>
+            <tr>
+                <td>125</td>
+                <td>Kabir Kumar</td>
+                <td>Civil Engineering</td>
+            </tr>
+            <tr>
+                <td>146</td>
+                <td>Aditya Singh</td>
+                <td>Computer Science</td>
+            </tr><tr>
+                <td>169</td>
+                <td>Harsh Solanki</td>
+                <td>Information Technology</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact-us" class="contactus">
+        <h2>Contact Us</h2>
+        <p>You can contact us at college@official.com or visit us between 9AM - 3PM</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.8208970252113!2d75.8225124!3d26.781978499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9763e6030f1%3A0x4137675e5cf54360!2sJECRC%20Foundation!5e0!3m2!1sen!2sin!4v1732936739665!5m2!1sen!2sin" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+    </section><br>
+
+    <footer>
+        <p> &copy; 2025 JECRC</p>
+    </footer>
+
+
+</body>
+</html>
